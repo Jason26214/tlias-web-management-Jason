@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: tlias-web-management
+  #文件上传大小配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  profiles:
+    active: secret
+
+#Mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+#spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+
