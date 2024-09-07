@@ -1,5 +1,5 @@
 # Project Name: tlias-web-management
-This is a project that include the basic use of Spring-boot, Maven and MySQL
+The project is a backend management platform for educational institutions, focused on staff management, and includes the basic use of Spring Boot, Maven, and MySQL.
 ## How to use 
 1. Create a new file called: "application-secret.yml"
 ```yml
